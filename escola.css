@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('satc_fachada.jpg'); /* Caminho da imagem */
+    background-size: cover; /* Para cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    color: white; /* Cor do texto */
+}
+
+header {
+    background: rgba(0, 123, 255, 0.7); /* Fundo semi-transparente */
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: rgba(255, 255, 255, 0.7); /* Fundo semi-transparente */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
